@@ -1,0 +1,46 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+   background: url("../images/loginbackground.jpg")  no-repeat -10px -240px fixed;
+}
+input {
+    outline: none;
+}
+.login {
+    width: 400px;
+    height: 200px;
+    margin: 200px auto;
+    background:rgba(0,0,0,.3);
+    padding:2px 3px ;
+}
+.login .t  {
+    margin-top: 30px;
+}
+.login .t input {
+    height: 20px;
+}
+.login .tt  {
+    margin-top: 20px;
+}
+.login .tt input {
+    height: 20px;
+}
+.login .bu  {
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.login .bu input {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 13px;
+    background-image: linear-gradient(to right,red,#3498db,#2ecc71);
+    background-size: 200%;
+    font-size: 14px;
+}
+.login .bu input:hover {
+    background-position: right;
+}
